@@ -1,0 +1,56 @@
+body {
+  background-color: #f0f0f0; /* Couleur de fond légère */
+}
+
+h1,
+h2 {
+  color: #0057a3; /* Couleur bleue LEGO */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+p {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.card {
+  border-radius: 15px; /* Coins arrondis pour les cartes */
+}
+
+.btn-custom {
+  background-color: #e4002b; /* Couleur rouge LEGO */
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #c30026;
+  color: white;
+}
+
+.bg-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/stock_images/crowd.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-technic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/stock_images/car3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-star-wars {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/stock_images/SWL2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-arc {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/stock_images/Paris.jpg");
+  background-size: cover;
+  background-position: center;
+}
